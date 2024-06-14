@@ -1,0 +1,86 @@
+{
+  "lanches": [
+    {
+      "id": 1,
+      "name": "Lanche Teste",
+      "ingredientes": [
+        "Pão",
+        "Maionese",
+        "Hambúrguer",
+        "Alface"
+      ],
+      "preco": 170,
+      "imagem": "database/img/lanche3.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Lanche Teste",
+      "ingredientes": [
+        "Pão",
+        "Maionese",
+        "Hambúrguer",
+        "Alface"
+      ],
+      "preco": 200,
+      "imagem": "database/img/lanche3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Lanche Teste",
+      "ingredientes": [
+        "Pão",
+        "Maionese",
+        "Hambúrguer",
+        "Alface"
+      ],
+      "preco": 200,
+      "imagem": "database/img/lanche2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Lanche Teste",
+      "ingredientes": [
+        "Pão",
+        "Maionese",
+        "Hambúrguer",
+        "Alface"
+      ],
+      "preco": 200,
+      "imagem": "database/img/lanche1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Lanche Teste",
+      "ingredientes": [
+        "Pão",
+        "Maionese",
+        "Hambúrguer",
+        "Alface"
+      ],
+      "preco": 200,
+      "imagem": "database/img/lanche1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Lanche Teste",
+      "ingredientes": [
+        "Pão",
+        "Maionese",
+        "Hambúrguer",
+        "Alface",
+        "Manjericão"
+      ],
+      "preco": 200,
+      "imagem": "database/img/lanche1.jpg"
+    }
+  ],
+  "porcoes":[
+    {
+      "id":1,
+      "nome":"Porção de batatas",
+      "preco":"29,00",
+      "descricao":"Porção de batatas canoas, assadas e temperadas com azeite e sal.",
+      "imagem": "database/img/lanche1.jpg"
+    }
+  ]
+}

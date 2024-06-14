@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAMBÚRGUER NA BRASA</title>
+  <link rel="icon" href="./img/Imagens_Projeto_Braza/LogoPng.png" type="image/png">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&display=swap">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="Componentes/Carroussel/dist/assets/owl.carousel.min.css">
+</head>
+
+<body id="body">
+
+
+  <div class="navbar navbar-expand-sm navbar-dark  navbar-transparente  d-flex justify-content-center " id="navbar">
+    <img src="./img/Imagens_Projeto_Braza/LogoPng.png" class=" mr-2 " alt="" width="80" style="border-radius: 100%;">
+    <h1 class="text-white font-titulo">HAMBÚRGUER NA BRASA</h1>
+  </div>
+
+
+  <section class="tamanho-container mt-1 mt-sm-3">
+    <div class="row ">
+      <div class="col-md-12 col-sm-12 p-0 container">
+        <div class="owl-carousel owl-theme ">
+          <div class="item ">
+            <img src="./img/Imagens_Projeto_Braza/x-nada.jpg " class="  " alt="">
+          </div>
+          <div class="item ">
+            <img src="./img/Imagens_Projeto_Braza/x-quase-tudo.jpg " class="  " alt="">
+          </div>
+          <div class="item ">
+            <img src="./img/Imagens_Projeto_Braza/x-tudo.jpg" class="  " alt="">
+          </div>
+          <div class="item ">
+            <img src="./img/Imagens_Projeto_Braza/x-infarto (2).jpg" class=" " alt="">
+          </div>
+          <div class="item ">
+            <img src="./img/Imagens_Projeto_Braza/x-infarto (1).jpg" class="" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class=" w-100 container d-flex flex-column justify-content-space-betwenn">
+    <div class="container px-0 col-10 ">
+      <h1 class="text-start ml-0 text-white">Lanches</h1>
+    </div>
+    <div class="container transbordando my-5">
+      <div class="habilitando-grid" id="cards"></div>
+    </div>
+
+    <div class="container px-0 col-10 ">
+      <h1 class="text-start ml-0 text-white">Porções</h1>
+    </div>
+    <div class="container transbordando my-5">
+      <div class="habilitando-grid" id="cards-porcoes">
+      </div>
+    </div>
+    
+  </section>
+  <footer  class="rodape">
+    <div class="row w-100">
+      <div class="col-12 col-sm-4 p-0 d-flex justify-content-center align-items-center order-2 order-sm-1">
+        <a href="" class="d-flex justify-content-center align-items-center">
+          <img src="img/whatsapp logo.webp" width="80px" alt="">
+          <h3 class="rodape-texto">(11)94324-6437</h3>
+        </a>
+      </div>
+      <div class="col-sm-4  p-0 d-flex justify-content-center order-3 order-sm-2">
+        <img src="./img/Imagens_Projeto_Braza/LogoPng.png" class="d-none d-sm-block " width="80px" alt="">
+        
+      </div>
+      <div class="col-12 col-sm-4 p-0 d-flex justify-content-center align-items-center order-1 order-sm-3">
+        <a href="" class="d-flex justify-content-center align-items-center">
+          <img src="img/intagram logo.webp" width="80px" alt="">
+         
+          <h3 class="rodape-texto">hamburguernabrasa</h3>
+        </a>
+      </div>
+    </div>
+</footer>
+
+   
+
+
+
+  <script src="index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+    <script>
+
+
+
+    </script>
+
+
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="Componentes/Carroussel/dist/owl.carousel.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+
+      $(".owl-carousel").owlCarousel({
+        items: 3,
+        loop: true,
+        margin:30,
+        autoplay: true,
+        autoplayTimeout: 4500,
+        animateOut: 'fadeOut', // Define o tipo de transição ao sair de um item
+        animateIn: 'fadeIn',
+        smartSpeed: 4000,
+        responsive: {
+          0: {
+            margin: 0,
+            items: 1 // Número de itens a serem exibidos por vez para telas menores
+          },
+          600: {
+            items: 3 // Número de itens a serem exibidos por vez para telas médias
+          },
+          1000: {
+            items: 3 // Número de itens a serem exibidos por vez para telas maiores
+          }
+        }
+      });
+    })
+  </script>
+
+</body>
+
+</html>
